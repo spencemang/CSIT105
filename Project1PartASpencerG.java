@@ -15,7 +15,6 @@ public class Project1PartASpencerG {
         int totalServings;
         int servingCals;
         int cookiesEaten;
-        double eatenCals;
         double cookiesperServing;
         double servingsEaten;
         double totalCals;
@@ -27,21 +26,26 @@ public class Project1PartASpencerG {
         System.out.print("How many cookies are there in a bag?");
         cookiesinBag=input.nextInt();
         
-        System.out.print("How many servings are there in a bag?");
+        System.out.print("\nHow many servings are there in a bag?");
         totalServings=input.nextInt();
         
-        System.out.print("How many calories are in a serving?");
+        System.out.print("\nHow many calories are in a serving?");
         servingCals=input.nextInt();
         
         System.out.print("\n How many cookies did you eat?");
         cookiesEaten=input.nextInt();
         
          cookiesperServing=(double)cookiesinBag/totalServings;
-         totalCals=(double)servingCals*totalServings; 
+         eatenCals= cookiesperServing
+
+
+
+
+
          
          
         
-        System.out.println(cookiesEaten + " " + cookieType + " cookies is " + );
+
          
         
         
