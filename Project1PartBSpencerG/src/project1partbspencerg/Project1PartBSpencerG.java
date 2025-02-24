@@ -1,5 +1,6 @@
 
 package project1partbspencerg;
+import java.util.Scanner;
 
 /**
  *
@@ -7,15 +8,33 @@ package project1partbspencerg;
  */
 public class Project1PartBSpencerG {
 
+
     public static void main(String[] args) {
+
+
+
+        final int COOKIES_PRODUCED=48;
+        final double CUPS_OF_SUGAR=1.5/COOKIES_PRODUCED;
+        final double CUPS_OF_BUTTER=1/COOKIES_PRODUCED; 
+        final double CUPS_OF_FLOUR=2.75/COOKIES_PRODUCED;
+
+        Scanner input = new Scanner(System.in);
+       
+        int neededCookies;
+
+        System.out.print("Enter the number of cookies you want to make: ");
+        neededCookies = input.nextInt();
+
+        System.out.print("\nTo make " + neededCookies + " cookies using this recipe, you will need:");
+        System.out.printf("\nSugar \t\t %.2f Cups", neededCookies * CUPS_OF_SUGAR);
+
         
-        double cupsOfSugar=1.5/48;
-        double cupsOfButter=1/48;
-        double cupsOfFlour=2.75/48;
         
-        System.out.println(cupsOfSugar);
-        System.out.println(cupsOfButter);
-        System.out.println(cupsOfFlour);
+    
+        
+        
+        
+        
         
       
     }
