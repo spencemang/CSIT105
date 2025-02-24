@@ -26,7 +26,11 @@ public class Project1PartBSpencerG {
         neededCookies = input.nextInt();
 
         System.out.print("\nTo make " + neededCookies + " cookies using this recipe, you will need:");
-        System.out.printf("\nSugar \t\t %.2f Cups", neededCookies * CUPS_OF_SUGAR);
+        System.out.printf("\nSugar \t %.2f Cups", neededCookies * CUPS_OF_SUGAR);
+        System.out.printf("\nButter \t %.2f Cups", neededCookies * CUPS_OF_BUTTER);
+        System.out.printf("\nFlour \t %.2f Cups", neededCookies * CUPS_OF_FLOUR); 
+
+
 
         
         
